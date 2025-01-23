@@ -1,0 +1,77 @@
+.details-container {
+    padding: 20px;
+  }
+  
+  .activity-select {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .participants-selection {
+    margin-bottom: 20px;
+  }
+  
+  .participants-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .participant-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .associate-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
+  
+  .activities-breakdown {
+    margin-top: 20px;
+  }
+  
+  .activity-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .activity-section h4 {
+    margin-top: 0;
+  }
+  
+  .activity-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .activity-section li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .activity-section li:last-child {
+    border-bottom: none;
+  }
+  
+  .remove-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff1a1a;
+  }
